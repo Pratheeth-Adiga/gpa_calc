@@ -1,0 +1,166 @@
+data = [`{
+    "Mech": 
+    {
+      "1": 
+        [
+          {
+            "Serial number": "1",
+            "Course code": "ES309",
+            "Subject": "Fundamentals of mechanics",
+            "Number of credits": "4",
+            "CIE": "cie",
+            "CIE only": "False",
+            "SEE": "see",
+            "Total(CIE+SEE)": "total",
+            "Grade": "grade",
+            "Grade point": "gp",
+            "Credit point": "cp"
+          },
+          {
+            "Serial number": "2",
+            "Course code": "ES309",
+            "Subject": "Fundamentals of mechanics",
+            "Number of credits": "4",
+            "CIE": "cie",
+            "CIE only": "False",
+            "SEE": "see",
+            "Total(CIE+SEE)": "total",
+            "Grade": "grade",
+            "Grade point": "gp",
+            "Credit point": "cp"
+          },
+          {
+            "Serial number": "3",
+            "Course code": "ES309",
+            "Subject": "Fundamentals of mechanics",
+            "Number of credits": "4",
+            "CIE": "cie",
+            "CIE only": "False",
+            "SEE": "see",
+            "Total(CIE+SEE)": "total",
+            "Grade": "grade",
+            "Grade point": "gp",
+            "Credit point": "cp"
+          },
+          {
+            "Serial number": "4",
+            "Course code": "ES309",
+            "Subject": "Fundamentals of mechanics",
+            "Number of credits": "4",
+            "CIE": "cie",
+            "CIE only": "False",
+            "SEE": "see",
+            "Total(CIE+SEE)": "total",
+            "Grade": "grade",
+            "Grade point": "gp",
+            "Credit point": "cp"
+          },
+          {
+            "Serial number": "5",
+            "Course code": "ES309",
+            "Subject": "Fundamentals of mechanics",
+            "Number of credits": "4",
+            "CIE": "cie",
+            "CIE only": "True",
+            "SEE": "20",
+            "Total(CIE+SEE)": "total",
+            "Grade": "grade",
+            "Grade point": "gp",
+            "Credit point": "cp"
+          },
+          {
+            "Serial number": "6",
+            "Course code": "ES309",
+            "Subject": "Fundamentals of mechanics",
+            "Number of credits": "4",
+            "CIE": "cie",
+            "CIE only": "True",
+            "SEE": "20",
+            "Total(CIE+SEE)": "total",
+            "Grade": "grade",
+            "Grade point": "gp",
+            "Credit point": "cp"
+          }
+        ],
+        "2":[
+          {
+            "Serial number": "1",
+            "Course code": "ES309",
+            "Subject": "Fundamentals of mechanics",
+            "Number of credits": "4",
+            "CIE": "cie",
+            "CIE only": "False",
+            "SEE": "see",
+            "Total(CIE+SEE)": "total",
+            "Grade": "grade",
+            "Grade point": "gp",
+            "Credit point": "cp"
+          },
+          {
+            "Serial number": "2",
+            "Course code": "ES309",
+            "Subject": "Fundamentals of mechanics",
+            "Number of credits": "4",
+            "CIE": "cie",
+            "CIE only": "False",
+            "SEE": "see",
+            "Total(CIE+SEE)": "total",
+            "Grade": "grade",
+            "Grade point": "gp",
+            "Credit point": "cp"
+          },
+          {
+            "Serial number": "3",
+            "Course code": "ES309",
+            "Subject": "Fundamentals of mechanics",
+            "Number of credits": "4",
+            "CIE": "cie",
+            "CIE only": "False",
+            "SEE": "see",
+            "Total(CIE+SEE)": "total",
+            "Grade": "grade",
+            "Grade point": "gp",
+            "Credit point": "cp"
+          },
+          {
+            "Serial number": "4",
+            "Course code": "ES309",
+            "Subject": "Fundamentals of mechanics",
+            "Number of credits": "4",
+            "CIE": "cie",
+            "CIE only": "False",
+            "SEE": "see",
+            "Total(CIE+SEE)": "total",
+            "Grade": "grade",
+            "Grade point": "gp",
+            "Credit point": "cp"
+          },
+          {
+            "Serial number": "5",
+            "Course code": "ES309",
+            "Subject": "Fundamentals of mechanics",
+            "Number of credits": "4",
+            "CIE": "cie",
+            "CIE only": "True",
+            "SEE": "20",
+            "Total(CIE+SEE)": "total",
+            "Grade": "grade",
+            "Grade point": "gp",
+            "Credit point": "cp"
+          },
+          {
+            "Serial number": "6",
+            "Course code": "ES309",
+            "Subject": "Fundamentals of mechanics",
+            "Number of credits": "4",
+            "CIE": "cie",
+            "CIE only": "True",
+            "SEE": "20",
+            "Total(CIE+SEE)": "total",
+            "Grade": "grade",
+            "Grade point": "gp",
+            "Credit point": "cp"
+          }
+        ]
+    }
+  }`]

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color:#332940;">
+<head>
+    <title>GPA Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script  src="data/data.json"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+  
+<div class="container-fluid text-center" >    
+  <div class="row content">
+    <div class="col-sm-2 sidenav" style="background-color:#555;">
+        <br>
+        <label id="branch">Branch:</label>
+        <div class="dropdown">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                Choose here
+            </button>
+            <div class="dropdown-menu">
+                <a href="CSE" class="dropdown-item" onclick="getBranch(this); return false;">CSE</a>
+                <a href="Civil" class="dropdown-item" onclick="getBranch(this); return false;">Civil</a>
+                <a href="ECE" class="dropdown-item" onclick="getBranch(this); return false;">ECE</a>
+                <a href="EEE" class="dropdown-item" onclick="getBranch(this); return false;">EEE</a>
+                <a href="ISE" class="dropdown-item" onclick="getBranch(this); return false;">ISE</a>
+                <a href="Mech" class="dropdown-item" onclick="getBranch(this); return false;">Mech</a>
+            </div>
+        </div>
+        <br>
+        <label id="sem">Semester: </label>
+        <div class="dropdown">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                Choose here
+            </button>
+            <div class="dropdown-menu">
+                <a href="1" class="dropdown-item" onclick="getSem(this); return false;">Sem 1</a>
+                <a href="2" class="dropdown-item" onclick="getSem(this); return false;">Sem 2</a>
+                <a href="3" class="dropdown-item" onclick="getSem(this); return false;">Sem 3</a>
+                <a href="4" class="dropdown-item" onclick="getSem(this); return false;">Sem 4</a>
+                <a href="5" class="dropdown-item" onclick="getSem(this); return false;">Sem 5</a>
+                <a href="6" class="dropdown-item" onclick="getSem(this); return false;">Sem 6</a>
+                <a href="7" class="dropdown-item" onclick="getSem(this); return false;">Sem 7</a>
+                <a href="8" class="dropdown-item" onclick="getSem(this); return false;">Sem 8</a>
+
+            </div>
+        </div>
+        <br>
+        <button type="button" onclick="CreateTableFromJSON()" class="btn btn-success">Done</button>
+    </div>
+    <div class="col-sm-8 text-left" id="main" style="background-color: #121212; padding-top: 20px; overflow: scroll;"> 
+        <table  class="table" id="table" border="1" style="color: #fff;"></table>
+    </div>
+    <div class="col-sm-2 sidenav" id="right" style="background-color: #121212;"> 
+        <label id="result"></label>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+    <p>Footer Text</p>
+</footer>
+</body>
+</html>
