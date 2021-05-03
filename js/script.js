@@ -94,7 +94,6 @@ function CreateTableFromJSON() {
             }
             if(dict[i][col[j-1]] == "True")
             {
-                console.log("jey");
                 tabCell.innerHTML = "<label id='" + i.toString() + j.toString() + "'></label>";
             }
         }
