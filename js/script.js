@@ -92,11 +92,11 @@ function CreateTableFromJSON() {
             {
                 tabCell.innerHTML = "<label id='" + i.toString() + j.toString() + "'>" ;
             }
-            if(dict[i][col[j]] == "20")
+            if(dict[i][col[j-1]] == "True")
             {
-                tabCell.innerHTML = "<label id='" + i.toString() + j.toString() + "'>20</label>" ;
+                console.log("jey");
+                tabCell.innerHTML = "<label id='" + i.toString() + j.toString() + "'></label>";
             }
-        
         }
     }
     // FINALLY ADD THE NEWLY CREATED TABLE WITH JSON DATA TO A CONTAINER.
@@ -123,12 +123,15 @@ function calculateGpa()
     var per = 0;
     for(let i=0;i<=count;i++)
     {
-         result = parseInt(document.getElementById(i.toString()+"4").value)+parseInt(document.getElementById(i.toString()+"6").value);
-         if (isNaN(result))
-            document.getElementById(i.toString()+"7").innerHTML = parseInt(document.getElementById(i.toString()+"4").value)+parseInt(document.getElementById(i.toString()+"6").innerHTML);
+        result = parseInt(document.getElementById(i.toString()+"4").value)+parseInt(document.getElementById(i.toString()+"6").value);
+        if (isNaN(result))
+        {
+            document.getElementById(i.toString()+"7").innerHTML = parseInt(document.getElementById(i.toString()+"4").value)*2;
+            document.getElementById(i.toString()+"6").innerHTML = document.getElementById(i.toString()+"4").value;
+        }
         else
             document.getElementById(i.toString()+"7").innerHTML = result;
-         // 7 refers to column 7
+        // 7 refers to column 7
     }
 
     for (let i = 0; i <= count; i++) {
