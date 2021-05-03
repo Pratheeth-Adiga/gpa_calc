@@ -1,12 +1,12 @@
 var count = 0;
 
 function getBranch(obj) {
-    document.getElementById('branch').innerHTML = 'Branch: ' + obj.getAttribute("href");
+    document.getElementById('branch').innerHTML = '<b>Branch: ' + obj.getAttribute("href") + '</b>';
     return false;
 }
 
 function getSem(obj) {
-    document.getElementById('sem').innerHTML = 'Semester: ' + obj.getAttribute("href");
+    document.getElementById('sem').innerHTML = '<b>Semester: ' + obj.getAttribute("href") + '</b>';
     return false;
 }
 
@@ -102,7 +102,7 @@ function CreateTableFromJSON() {
     var divContainer = document.getElementById("main");
     divContainer.innerHTML = "";
     divContainer.appendChild(table);
-    document.getElementById("right").innerHTML = "<br><br><button type='button' onclick='calculateGpa()' class='btn btn-success'>Calculate</button><label id='result'></label>";
+    document.getElementById("right").innerHTML = "<br><br><button type='button' onclick='calculateGpa()' class='btn btn-success'>Calculate</button><br><label id='result' style='color: #fff;'></label>";
 }
 
 function calculateGpa()
@@ -176,6 +176,6 @@ function calculateGpa()
     }
     per = total_score/(count+1);
     sgpa = total_credpoints/total_credits;
-    document.getElementById("result").innerHTML = "<br><br>Percentage: " + per + "<br><br>SGPA: " + sgpa;
+    document.getElementById("result").innerHTML = "<br><br>Total: " + total_score + "<br><br>Total Creds: " + total_credits + "<br><br>SGPA: " + sgpa ;
 
 }
