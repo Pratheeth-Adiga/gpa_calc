@@ -1,12 +1,12 @@
 var count = 0;
 
 function getBranch(obj) {
-    document.getElementById('branch').innerHTML = 'Branch: ' + obj.getAttribute("href");
+    document.getElementById('branch').innerHTML = '<b>Branch: ' + obj.getAttribute("href") + '</b>';
     return false;
 }
 
 function getSem(obj) {
-    document.getElementById('sem').innerHTML = 'Semester: ' + obj.getAttribute("href");
+    document.getElementById('sem').innerHTML = '<b>Semester: ' + obj.getAttribute("href") + '</b>';
     return false;
 }
 
@@ -94,7 +94,6 @@ function CreateTableFromJSON() {
             }
             if(dict[i][col[j-1]] == "True")
             {
-                console.log("jey");
                 tabCell.innerHTML = "<label id='" + i.toString() + j.toString() + "'></label>";
             }
         }
@@ -103,7 +102,7 @@ function CreateTableFromJSON() {
     var divContainer = document.getElementById("main");
     divContainer.innerHTML = "";
     divContainer.appendChild(table);
-    document.getElementById("right").innerHTML = "<br><br><button type='button' onclick='calculateGpa()' class='btn btn-success'>Calculate</button><label id='result'></label>";
+    document.getElementById("right").innerHTML = "<br><br><button type='button' onclick='calculateGpa()' class='btn btn-success'>Calculate</button><br><label id='result' style='color: #fff;'></label>";
 }
 
 function calculateGpa()
@@ -123,10 +122,10 @@ function calculateGpa()
     var per = 0;
     for(let i=0;i<=count;i++)
     {
-        result = parseInt(document.getElementById(i.toString()+"4").value)+parseInt(document.getElementById(i.toString()+"6").value);
+        result = parseFloat(document.getElementById(i.toString()+"4").value)+parseFloat(document.getElementById(i.toString()+"6").value);
         if (isNaN(result))
         {
-            document.getElementById(i.toString()+"7").innerHTML = parseInt(document.getElementById(i.toString()+"4").value)*2;
+            document.getElementById(i.toString()+"7").innerHTML = parseFloat(document.getElementById(i.toString()+"4").value)*2;
             document.getElementById(i.toString()+"6").innerHTML = document.getElementById(i.toString()+"4").value;
         }
         else
@@ -135,7 +134,7 @@ function calculateGpa()
     }
 
     for (let i = 0; i <= count; i++) {
-        total = parseInt(document.getElementById(i.toString()+"7").innerHTML);
+        total = parseFloat(document.getElementById(i.toString()+"7").innerHTML);
         g = document.getElementById(i.toString()+"8");
         cred = document.getElementById(i.toString()+"3");
         gp = document.getElementById(i.toString()+"9");
@@ -168,8 +167,8 @@ function calculateGpa()
           g.innerHTML="F";
           gp.innerHTML="0";
         }
-        credres = parseInt(cred.innerHTML);
-        gpres = parseInt(gp.innerHTML);
+        credres = parseFloat(cred.innerHTML);
+        gpres = parseFloat(gp.innerHTML);
         cp.innerHTML = gpres*credres;
         total_credits += credres;
         total_credpoints += gpres*credres;
@@ -177,6 +176,6 @@ function calculateGpa()
     }
     per = total_score/(count+1);
     sgpa = total_credpoints/total_credits;
-    document.getElementById("result").innerHTML = "<br><br>Percentage: " + per + "<br><br>SGPA: " + sgpa;
+    document.getElementById("result").innerHTML = "<br><br>Total: " + total_score + "<br><br>Total Creds: " + total_credits + "<br><br>SGPA: " + sgpa ;
 
 }
