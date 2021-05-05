@@ -17,8 +17,6 @@ function CreateTableFromJSON() {
     var file = JSON.parse(data);
     var branch = document.getElementById('branch').innerText.split(" ")[1];
     var sem = document.getElementById('sem').innerText.split(" ")[1];
-    console.log(branch);
-    console.log(sem);
     var dict = file[branch][sem];
 
     // EXTRACT VALUE FOR HTML HEADER. 
