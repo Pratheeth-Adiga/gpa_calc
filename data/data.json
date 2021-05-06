@@ -1148,7 +1148,7 @@ data = [`{
           "Credit point": "cp"
         }
       ],
-      "3":
+    "3":
       [
         {
           "Serial number": "1",
@@ -1270,7 +1270,7 @@ data = [`{
         {
           "Serial number": "10",
           "Course code": "18BSBM310",
-          "Subject": "Bridge Course Mathematics-I(for lateral entry students only",
+          "Subject": "Bridge Course Mathematics-I (for lateral entry students only)",
           "Number of credits": "3",
           "CIE": "cie",
           "CIE only": "False",
@@ -1281,7 +1281,7 @@ data = [`{
           "Credit point": "cp"
         }
       ],
-      "4":
+    "4":
       [
         {
           "Serial number": "1",
@@ -1414,7 +1414,7 @@ data = [`{
           "Credit point": "cp"
         }
       ],
-      "5":
+    "5":
       [
         {
           "Serial number": "1",
@@ -1521,7 +1521,7 @@ data = [`{
           "Credit point": "cp"
         }
       ],
-      "6":
+    "6":
       [
         {
           "Serial number": "1",
@@ -1628,7 +1628,7 @@ data = [`{
           "Credit point": "cp"
         }
       ],
-      "7":
+    "7":
       [
         {
           "Serial number": "1",
@@ -1722,7 +1722,7 @@ data = [`{
           "Credit point": "cp"
         } 
       ],
-      "8":
+    "8":
       [
         {
           "Serial number": "1",
