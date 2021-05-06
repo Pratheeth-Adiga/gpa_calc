@@ -1,1 +1,1 @@
-More information about this repository coming soon!
+Information about this repository coming soon!
