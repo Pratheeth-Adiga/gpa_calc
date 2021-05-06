@@ -1,2 +1,1 @@
-Hello!
-This is a forked repository
+More information about this repository coming soon!
