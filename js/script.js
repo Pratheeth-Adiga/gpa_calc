@@ -122,10 +122,10 @@ function calculateGpa()
     var per = 0;
     for(let i=0;i<=count;i++)
     {
-        result = parseInt(document.getElementById(i.toString()+"4").value)+parseInt(document.getElementById(i.toString()+"6").value);
+        result = parseFloat(document.getElementById(i.toString()+"4").value)+parseFloat(document.getElementById(i.toString()+"6").value);
         if (isNaN(result))
         {
-            document.getElementById(i.toString()+"7").innerHTML = parseInt(document.getElementById(i.toString()+"4").value)*2;
+            document.getElementById(i.toString()+"7").innerHTML = parseFloat(document.getElementById(i.toString()+"4").value)*2;
             document.getElementById(i.toString()+"6").innerHTML = document.getElementById(i.toString()+"4").value;
         }
         else
@@ -134,7 +134,7 @@ function calculateGpa()
     }
 
     for (let i = 0; i <= count; i++) {
-        total = parseInt(document.getElementById(i.toString()+"7").innerHTML);
+        total = parseFloat(document.getElementById(i.toString()+"7").innerHTML);
         g = document.getElementById(i.toString()+"8");
         cred = document.getElementById(i.toString()+"3");
         gp = document.getElementById(i.toString()+"9");
@@ -167,8 +167,8 @@ function calculateGpa()
           g.innerHTML="F";
           gp.innerHTML="0";
         }
-        credres = parseInt(cred.innerHTML);
-        gpres = parseInt(gp.innerHTML);
+        credres = parseFloat(cred.innerHTML);
+        gpres = parseFloat(gp.innerHTML);
         cp.innerHTML = gpres*credres;
         total_credits += credres;
         total_credpoints += gpres*credres;
