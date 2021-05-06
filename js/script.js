@@ -63,6 +63,18 @@ function CreateTableFromJSON() {
                     }
                 });
             }
+            if(dict[i][col[j]] == "intern")
+            {
+                tabCell.innerHTML = "<input type='number' max='100' min='20' id='" + i.toString() + j.toString() + "'>" ;
+                ele = document.getElementById(i.toString() + j.toString());
+                cie.push(i.toString() + j.toString());
+                ele.addEventListener("input", function(e) {
+                    if(this.value>100) {
+                        alert("Max value reached!");
+                        this.value = 100;
+                    }
+                });
+            }
             if(dict[i][col[j]] == "see")
             {
                 tabCell.innerHTML = "<input type='number' max='50' min='20' id='" + i.toString() + j.toString() + "'>" ;
@@ -96,6 +108,10 @@ function CreateTableFromJSON() {
             {
                 tabCell.innerHTML = "<label id='" + i.toString() + j.toString() + "'></label>";
             }
+            if(dict[i][col[j]] == "---")
+            {
+                tabCell.innerHTML = "<label id='" + i.toString() + j.toString() + "'>---</label>";
+            }
         }
     }
     // FINALLY ADD THE NEWLY CREATED TABLE WITH JSON DATA TO A CONTAINER.
@@ -122,7 +138,12 @@ function calculateGpa()
     var per = 0;
     for(let i=0;i<=count;i++)
     {
-        result = parseFloat(document.getElementById(i.toString()+"4").value)+parseFloat(document.getElementById(i.toString()+"6").value);
+        if(document.getElementById(i.toString()+"6").innerHTML == "---")
+        {
+            result = parseFloat(document.getElementById(i.toString()+"4").value);
+        }
+        else
+            result = parseFloat(document.getElementById(i.toString()+"4").value)+parseFloat(document.getElementById(i.toString()+"6").value);
         if (isNaN(result))
         {
             document.getElementById(i.toString()+"7").innerHTML = parseFloat(document.getElementById(i.toString()+"4").value)*2;
