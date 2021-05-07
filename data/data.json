@@ -228,7 +228,7 @@ data = [`{
           "Credit point": "cp"
         }
       ],
-      "3":
+    "3":
       [
         {
           "Serial number": "1",
@@ -361,7 +361,7 @@ data = [`{
           "Credit point": "cp"
         }
       ],
-      "4":
+    "4":
       [
         {
           "Serial number": "1",
@@ -494,7 +494,7 @@ data = [`{
           "Credit point": "cp"
         }
       ],
-      "5":
+    "5":
       [
         {
           "Serial number": "1",
@@ -601,7 +601,7 @@ data = [`{
           "Credit point": "cp"
         }
       ],
-      "6":
+    "6":
       [
         {
           "Serial number": "1",
@@ -708,7 +708,7 @@ data = [`{
           "Credit point": "cp"
         }
       ],
-      "7":
+    "7":
       [
         {
           "Serial number": "1",
@@ -802,7 +802,7 @@ data = [`{
           "Credit point": "cp"
         }
       ],
-      "8":
+    "8":
       [
         {
           "Serial number": "1",
@@ -861,9 +861,9 @@ data = [`{
           "Course code": "18MEIN805",
           "Subject": "Internship",
           "Number of credits": "3",
-          "CIE": "cie",
+          "CIE": "intern",
           "CIE only": "True",
-          "SEE": "see",
+          "SEE": "---",
           "Total(CIE+SEE)": "total",
           "Grade": "grade",
           "Grade point": "gp",
