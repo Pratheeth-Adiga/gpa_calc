@@ -470,7 +470,7 @@ data = [`{
         {
           "Serial number": "10",
           "Course code": "18BSBM310",
-          "Subject": "Bridge Mathematics – I (For lateral entry students)",
+          "Subject": "Bridge Course Mathematics – I (For lateral entry students)",
           "Number of credits": "3",
           "CIE": "cie",
           "CIE only": "False",
@@ -599,11 +599,131 @@ data = [`{
           "Grade": "grade",
           "Grade point": "gp",
           "Credit point": "cp"
+        }
+      ],
+    "4_lateral_entry":
+      [
+        {
+          "Serial number": "1",
+          "Course code": "18BSEM401",
+          "Subject": "Engineering Mathematics – IV",
+          "Number of credits": "3",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "2",
+          "Course code": "18MEPC402",
+          "Subject": "Fluid Mechanics and Machinery",
+          "Number of credits": "4",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "3",
+          "Course code": "18MEPC403",
+          "Subject": "Manufacturing Process-I",
+          "Number of credits": "4",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "4",
+          "Course code": "18MEPC404",
+          "Subject": "Applied Thermodynamics",
+          "Number of credits": "4",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "5",
+          "Course code": "18MEPC405",
+          "Subject": "Dynamics of Machines",
+          "Number of credits": "3",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "6",
+          "Course code": "18MEPC406",
+          "Subject": "Fluid Mechanics Laboratory",
+          "Number of credits": "1.5",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "7",
+          "Course code": "18MEPC407",
+          "Subject": "Machine Shop",
+          "Number of credits": "2",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "8",
+          "Course code": "18MEPC408",
+          "Subject": "Manufacturing Laboratory",
+          "Number of credits": "1.5",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "9",
+          "Course code": "18MCCE409",
+          "Subject": "Constitution of India and Professional Ethics",
+          "Number of credits": "1",
+          "CIE": "cie",
+          "CIE only": "True",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
         },
         {
           "Serial number": "10",
           "Course code": "18BSBM410",
-          "Subject": "Bridge Mathematics– II(for lateral entry students)",
+          "Subject": "Bridge Course Mathematics – II (For lateral entry students)",
           "Number of credits": "3",
           "CIE": "cie",
           "CIE only": "False",
@@ -1340,6 +1460,139 @@ data = [`{
           "Credit point": "cp"
         }
       ],
+    "3_lateral_entry": 
+      [
+        {
+          "Serial number": "1",
+          "Course code": "18BSEM301",
+          "Subject": "Engineering Mathematics –III",
+          "Number of credits": "3",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "2",
+          "Course code": "18CIPC302",
+          "Subject": "Digital System Design",
+          "Number of credits": "3",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "3",
+          "Course code": "18CIPC303",
+          "Subject": "Data Structures and Applications",
+          "Number of credits": "3",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "4",
+          "Course code": "18CIPC304",
+          "Subject": "Computer Organization and Architecture",
+          "Number of credits": "4",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "5",
+          "Course code": "18CIPC305",
+          "Subject": "Discrete Mathematical Structures",
+          "Number of credits": "4",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "6",
+          "Course code": "18CIPC306",
+          "Subject": "Object Oriented Programming",
+          "Number of credits": "3",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "7",
+          "Course code": "18CIPC307",
+          "Subject": "Digital System Design Laboratory",
+          "Number of credits": "1.5",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "1.5",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "8",
+          "Course code": "18CIPC308",
+          "Subject": "Data Structures and Application Laboratory",
+          "Number of credits": "1.5",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "9",
+          "Course code": "18MCES309",
+          "Subject": "Environmental Science",
+          "Number of credits": "1",
+          "CIE": "cie",
+          "CIE only": "True",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "10",
+          "Course code": "18BSBM310",
+          "Subject": "Bridge Course Mathematics – I (For lateral entry students)",
+          "Number of credits": "3",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        }
+      ],
     "4": 
       [
         {
@@ -1447,12 +1700,145 @@ data = [`{
           "Credit point": "cp"
         },
         {
-          "Serial number": "5",
+          "Serial number": "9",
           "Course code": "18MCCE409",
           "Subject": "Constitution of India and Professional Ethics",
           "Number of credits": "1",
           "CIE": "cie",
           "CIE only": "True",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        }
+      ],
+    "4_lateral_entry": 
+      [
+        {
+          "Serial number": "1",
+          "Course code": "18BSEM401",
+          "Subject": "Engineering Mathematics –IV",
+          "Number of credits": "3",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "2",
+          "Course code": "18CIPC402",
+          "Subject": "Finite Automata and Formal Languages",
+          "Number of credits": "4",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "3",
+          "Course code": "18CIPC403",
+          "Subject": "Design and Analysis of Algorithms",
+          "Number of credits": "3",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "4",
+          "Course code": "18CIPC404",
+          "Subject": "Microprocessor and Microcontroller",
+          "Number of credits": "3",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "5",
+          "Course code": "18CIPC405",
+          "Subject": "Operating Systems",
+          "Number of credits": "3",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "6",
+          "Course code": "18CIPC406",
+          "Subject": "Software Engineering",
+          "Number of credits": "4",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "7",
+          "Course code": "18CIPC407",
+          "Subject": "Design and Analysis of Algorithms Laboratory",
+          "Number of credits": "1.5",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "8",
+          "Course code": "18CIPC408",
+          "Subject": "Microprocessor and Microcontroller Laboratory",
+          "Number of credits": "1.5",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "9",
+          "Course code": "18MCCE409",
+          "Subject": "Constitution of India and Professional Ethics",
+          "Number of credits": "1",
+          "CIE": "cie",
+          "CIE only": "True",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "10",
+          "Course code": "18BSBM410",
+          "Subject": "Bridge Course Mathematics – II (For lateral entry students)",
+          "Number of credits": "3",
+          "CIE": "cie",
+          "CIE only": "False",
           "SEE": "see",
           "Total(CIE+SEE)": "total",
           "Grade": "grade",
@@ -2066,7 +2452,127 @@ data = [`{
           "Credit point": "cp"
         }
       ],
-      "3":
+    "3":
+      [
+        {
+          "Serial number": "1",
+          "Course code": "18BSEM301",
+          "Subject": "Engineering Mathematics – III",
+          "Number of credits": "3",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "2",
+          "Course code": "18CVPC302",
+          "Subject": "Strength of Materials",
+          "Number of credits": "4",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "3",
+          "Course code": "18CVPC303",
+          "Subject": "Surveying Theory",
+          "Number of credits": "3",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "4",
+          "Course code": "18CVPC304",
+          "Subject": "Building Materials and Construction",
+          "Number of credits": "3",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "5",
+          "Course code": "18CVPC305",
+          "Subject": "Fluid Mechanics",
+          "Number of credits": "4",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "6",
+          "Course code": "18CVPC306",
+          "Subject": "Engineering Geology",
+          "Number of credits": "3",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "7",
+          "Course code": "18CVPC307",
+          "Subject": "Computer Aided Building Drawing",
+          "Number of credits": "1.5",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "8",
+          "Course code": "18CVPC308",
+          "Subject": "Surveying Practice",
+          "Number of credits": "1.5",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "9",
+          "Course code": "18MCES309",
+          "Subject": "Environmental Science",
+          "Number of credits": "1",
+          "CIE": "cie",
+          "CIE only": "True",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        }
+      ],
+    "3_lateral_entry":
       [
         {
           "Serial number": "1",
@@ -2187,8 +2693,8 @@ data = [`{
         },
         {
           "Serial number": "10",
-          "Course code": "18BSBM301",
-          "Subject": "Bridge Mathematics– I",
+          "Course code": "18BSBM310",
+          "Subject": "Bridge Course Mathematics – I (For lateral entry students)",
           "Number of credits": "3",
           "CIE": "cie",
           "CIE only": "False",
@@ -2199,7 +2705,127 @@ data = [`{
           "Credit point": "cp"
         }
       ],
-      "4":
+    "4":
+      [
+        {
+          "Serial number": "1",
+          "Course code": "18CVPC401",
+          "Subject": "Theory of Structure– I",
+          "Number of credits": "4",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "2",
+          "Course code": "18CVPC402",
+          "Subject": "Concrete Technology and Construction Management",
+          "Number of credits": "3",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "3",
+          "Course code": "18CVPC403",
+          "Subject": "Design of Reinforced Concrete Structure",
+          "Number of credits": "3",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "4",
+          "Course code": "18CVPC404",
+          "Subject": "Hydraulics and Hydraulic Machines",
+          "Number of credits": "4",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "5",
+          "Course code": "18CVPC405",
+          "Subject": "Basics of Soil Mechanics",
+          "Number of credits": "3",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "6",
+          "Course code": "18CVPC406",
+          "Subject": "Environmental Engineering-I",
+          "Number of credits": "3",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "7",
+          "Course code": "18CVPC407",
+          "Subject": "Geology Lab",
+          "Number of credits": "1.5",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "8",
+          "Course code": "18CVPC408",
+          "Subject": "Material Testing Laboratory",
+          "Number of credits": "1.5",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "9",
+          "Course code": "18MCCE409",
+          "Subject": "Constitution of India and Professional Ethics",
+          "Number of credits": "1",
+          "CIE": "cie",
+          "CIE only": "True",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        }
+      ],
+    "4_lateral_entry":
       [
         {
           "Serial number": "1",
@@ -2320,8 +2946,8 @@ data = [`{
         },
         {
           "Serial number": "10",
-          "Course code": "18BSBM401",
-          "Subject": "Bridge Mathematics – II",
+          "Course code": "18BSBM410",
+          "Subject": "Bridge Course Mathematics – II (For lateral entry students)",
           "Number of credits": "3",
           "CIE": "cie",
           "CIE only": "False",
@@ -2712,9 +3338,9 @@ data = [`{
           "Course code": "18CVIN805",
           "Subject": "Internship",
           "Number of credits": "3",
-          "CIE": "cie",
+          "CIE": "intern",
           "CIE only": "True",
-          "SEE": "see",
+          "SEE": "---",
           "Total(CIE+SEE)": "total",
           "Grade": "grade",
           "Grade point": "gp",
@@ -3071,6 +3697,139 @@ data = [`{
           "Credit point": "cp"
         }
       ],
+    "3_lateral_entry": 
+      [
+        {
+          "Serial number": "1",
+          "Course code": "18BSEM301",
+          "Subject": "Engineering Mathematics –III",
+          "Number of credits": "3",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "2",
+          "Course code": "18CIPC302",
+          "Subject": "Digital System Design",
+          "Number of credits": "3",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "3",
+          "Course code": "18CIPC303",
+          "Subject": "Data Structures and Applications",
+          "Number of credits": "3",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "4",
+          "Course code": "18CIPC304",
+          "Subject": "Computer Organization and Architecture",
+          "Number of credits": "4",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "5",
+          "Course code": "18CIPC305",
+          "Subject": "Discrete Mathematical Structures",
+          "Number of credits": "4",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "6",
+          "Course code": "18CIPC306",
+          "Subject": "Object Oriented Programming",
+          "Number of credits": "3",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "7",
+          "Course code": "18CIPC307",
+          "Subject": "Digital System Design Laboratory",
+          "Number of credits": "1.5",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "1.5",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "8",
+          "Course code": "18CIPC308",
+          "Subject": "Data Structures and Application Laboratory",
+          "Number of credits": "1.5",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "9",
+          "Course code": "18MCES309",
+          "Subject": "Environmental Science",
+          "Number of credits": "1",
+          "CIE": "cie",
+          "CIE only": "True",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "10",
+          "Course code": "18BSBM310",
+          "Subject": "Bridge Course Mathematics – I (For lateral entry students)",
+          "Number of credits": "3",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        }
+      ],
     "4": 
       [
         {
@@ -3178,12 +3937,145 @@ data = [`{
           "Credit point": "cp"
         },
         {
-          "Serial number": "5",
+          "Serial number": "9",
           "Course code": "18MCCE409",
           "Subject": "Constitution of India and Professional Ethics",
           "Number of credits": "1",
           "CIE": "cie",
           "CIE only": "True",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        }
+      ],
+    "4_lateral_entry": 
+      [
+        {
+          "Serial number": "1",
+          "Course code": "18BSEM401",
+          "Subject": "Engineering Mathematics –IV",
+          "Number of credits": "3",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "2",
+          "Course code": "18CIPC402",
+          "Subject": "Finite Automata and Formal Languages",
+          "Number of credits": "4",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "3",
+          "Course code": "18CIPC403",
+          "Subject": "Design and Analysis of Algorithms",
+          "Number of credits": "3",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "4",
+          "Course code": "18CIPC404",
+          "Subject": "Microprocessor and Microcontroller",
+          "Number of credits": "3",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "5",
+          "Course code": "18CIPC405",
+          "Subject": "Operating Systems",
+          "Number of credits": "3",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "6",
+          "Course code": "18CIPC406",
+          "Subject": "Software Engineering",
+          "Number of credits": "4",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "7",
+          "Course code": "18CIPC407",
+          "Subject": "Design and Analysis of Algorithms Laboratory",
+          "Number of credits": "1.5",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "8",
+          "Course code": "18CIPC408",
+          "Subject": "Microprocessor and Microcontroller Laboratory",
+          "Number of credits": "1.5",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "9",
+          "Course code": "18MCCE409",
+          "Subject": "Constitution of India and Professional Ethics",
+          "Number of credits": "1",
+          "CIE": "cie",
+          "CIE only": "True",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "10",
+          "Course code": "18BSBM410",
+          "Subject": "Bridge Course Mathematics – II (For lateral entry students)",
+          "Number of credits": "3",
+          "CIE": "cie",
+          "CIE only": "False",
           "SEE": "see",
           "Total(CIE+SEE)": "total",
           "Grade": "grade",
@@ -4039,7 +4931,7 @@ data = [`{
         {
           "Serial number": "10",
           "Course code": "18BSBM310",
-          "Subject": "Bridge Course Mathematics-I (for lateral entry students only)",
+          "Subject": "Bridge Course Mathematics – I (For lateral entry students)",
           "Number of credits": "3",
           "CIE": "cie",
           "CIE only": "False",
@@ -4168,11 +5060,131 @@ data = [`{
           "Grade": "grade",
           "Grade point": "gp",
           "Credit point": "cp"
+        }
+      ],
+    "4_lateral_entry":
+      [
+        {
+          "Serial number": "1",
+          "Course code": "18BSEM401",
+          "Subject": "Engineering Mathematics-IV",
+          "Number of credits": "3",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "2",
+          "Course code": "18ECPC401",
+          "Subject": "Electro Magnetic Field Theory",
+          "Number of credits": "3",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "3",
+          "Course code": "18ECPC402",
+          "Subject": "Digital Signal Processing",
+          "Number of credits": "3",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "4",
+          "Course code": "18ECPC403",
+          "Subject": "Digital Circuit Design and Synthesis Using HDL",
+          "Number of credits": "4",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "5",
+          "Course code": "18ECPC404",
+          "Subject": "Semiconductor Devices & CMOS Technology",
+          "Number of credits": "3",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "6",
+          "Course code": "18ECPC405",
+          "Subject": "Microprocessor and Microcontroller",
+          "Number of credits": "4",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "7",
+          "Course code": "18ECPC406",
+          "Subject": "Digital Signal Processing & Microprocessor Laboratory",
+          "Number of credits": "1.5",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "8",
+          "Course code": "18ECPC407",
+          "Subject": "HDL & Microcontroller Laboratory ",
+          "Number of credits": "1.5",
+          "CIE": "cie",
+          "CIE only": "False",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
+        },
+        {
+          "Serial number": "9",
+          "Course code": "18MCCE409",
+          "Subject": "Constitution of India & Professional Ethics",
+          "Number of credits": "1",
+          "CIE": "cie",
+          "CIE only": "True",
+          "SEE": "see",
+          "Total(CIE+SEE)": "total",
+          "Grade": "grade",
+          "Grade point": "gp",
+          "Credit point": "cp"
         },
         {
           "Serial number": "10",
           "Course code": "18BSBM410",
-          "Subject": "Bridge Course Mathematics-II(Lateral Entry Students Only)",
+          "Subject": "Bridge Course Mathematics – II (For lateral entry students)",
           "Number of credits": "3",
           "CIE": "cie",
           "CIE only": "False",
@@ -4789,7 +5801,7 @@ data = [`{
           "Credit point": "cp"
         }
       ],
-	"3":
+	  "3":
       [
         {
           "Serial number": "1",
@@ -5028,10 +6040,10 @@ data = [`{
           "Grade point": "gp",
           "Credit point": "cp"
         },
-		{
+		    {
           "Serial number": "10",
           "Course code": "18BSBM310",
-          "Subject": "Bridge Course Mathematics-I (Lateral Entry students only)",
+          "Subject": "Bridge Course Mathematics – I (For lateral entry students)",
           "Number of credits": "3",
           "CIE": "cie",
           "CIE only": "True",
@@ -5042,7 +6054,7 @@ data = [`{
           "Credit point": "cp"
         }
       ],
-	"4":
+	  "4":
       [
         {
           "Serial number": "1",
@@ -5281,10 +6293,10 @@ data = [`{
           "Grade point": "gp",
           "Credit point": "cp"
         },
-		{
+		    {
           "Serial number": "10",
           "Course code": "18BSBM410",
-          "Subject": "Bridge Course Mathematics-II (Lateral Entry students only)",
+          "Subject": "Bridge Course Mathematics – II (For lateral entry students)",
           "Number of credits": "3",
           "CIE": "cie",
           "CIE only": "True",
@@ -5415,7 +6427,7 @@ data = [`{
           "Credit point": "cp"
         }
       ],
-	"6":
+	  "6":
       [
         {
           "Serial number": "1",
@@ -5522,7 +6534,7 @@ data = [`{
           "Credit point": "cp"
         }
       ],
-	"7":
+	  "7":
       [
         {
           "Serial number": "1",
@@ -5616,7 +6628,7 @@ data = [`{
           "Credit point": "cp"
         }
       ],
-	"8":
+	  "8":
       [
         {
           "Serial number": "1",
@@ -5675,9 +6687,9 @@ data = [`{
           "Course code": "18EEIN805",
           "Subject": "Internship",
           "Number of credits": "3",
-          "CIE": "cie",
+          "CIE": "intern",
           "CIE only": "True",
-          "SEE": "see",
+          "SEE": "---",
           "Total(CIE+SEE)": "total",
           "Grade": "grade",
           "Grade point": "gp",

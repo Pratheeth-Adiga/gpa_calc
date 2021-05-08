@@ -198,5 +198,4 @@ function calculateGpa()
     per = total_score/(count+1);
     sgpa = total_credpoints/total_credits;
     document.getElementById("result").innerHTML = "<br><br>Total: " + total_score + "<br><br>Total Creds: " + total_credits + "<br><br>SGPA: " + sgpa ;
-
 }
