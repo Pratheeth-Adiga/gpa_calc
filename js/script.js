@@ -199,11 +199,11 @@ function calculateGpa()
         }
         else if(total>=45){
           g.innerHTML="D";
-          gp.innerHTML="6";
+          gp.innerHTML="5";
         }
         else if(total>=40){
           g.innerHTML="E";
-          gp.innerHTML="5";
+          gp.innerHTML="4";
         }
         else if(total>0){
           g.innerHTML="F";
