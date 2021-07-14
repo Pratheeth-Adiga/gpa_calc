@@ -219,5 +219,5 @@ function calculateGpa()
     sgpa = total_credpoints/total_credits;
 
     // Display the result
-    document.getElementById("result").innerHTML = "<br><br>Total: " + total_score + "<br><br>Total Credits: " + total_credits + "<br><br>Your Total Credits: " + total_credits + "<br><br>SGPA: " + sgpa ;
+    document.getElementById("result").innerHTML = "<br><br>Total: " + total_score + "<br><br>Total Credits: " + total_credits + "<br><br>Your Total Credits: " + total_credpoints + "<br><br>SGPA: " + sgpa ;
 }
