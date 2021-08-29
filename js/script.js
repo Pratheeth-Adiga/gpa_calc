@@ -2,13 +2,13 @@ var count = 0;
 
 function getBranch(obj) {
     //Stores the branch that was selected in the 'branch' label
-    document.getElementById('branch').innerHTML = '<b>Branch: ' + obj.getAttribute("href") + '</b>';
+    document.getElementById('branch').innerHTML = '<b>Branch: ' + obj.getAttribute("name") + '</b>';
     return false;
 }
 
 function getSem(obj) {
     //Stores the semester that was selected in the 'sem' label
-    document.getElementById('sem').innerHTML = '<b>Semester: ' + obj.getAttribute("href") + '</b>';
+    document.getElementById('sem').innerHTML = '<b>Semester: ' + obj.getAttribute("name") + '</b>';
     return false;
 }
 

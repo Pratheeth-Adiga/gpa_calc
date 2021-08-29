@@ -1,21 +1,55 @@
-/* height of grid */
-.row.content {
-  height: 600px;
-  margin-bottom: 0;
+* {
+  color: white;
+  box-sizing: border-box;
 }
 
-/* Set black background color, white text and some padding */
+body {
+  margin: 0;
+  background-color: #332940;
+}
+.row.content {
+  min-height: 35rem;
+}
+
+.side {
+  background-color:#555;
+}
+
+.dropdown-menu {
+  background-color: black;
+}
+
+.dropdown-item {
+  color: white;
+}
+
+#main {
+  background-color: black; 
+  padding: 1rem;
+  overflow:scroll;
+}
+
+input[type="number"] {
+  color: black;
+}
+
 footer {
-background-color: #332940;
-color: white;
-padding: 15px;
+  background-color: #332940;
+  margin: 1rem;
+  text-align: center;
+  padding: 1rem;
+  font-size: 20px;
+  margin: 0;
 }
 
 /* On small screens, set height to 'auto' for sidenav and grid */
 @media screen and (max-width: 767px) {
-.sidenav {
-  height: auto;
-  padding: 15px;
-}
-.row.content {height:auto;} 
+  .side {
+    height: auto;
+    padding: 15px;
+    background-color:#555;
+  }
+  .row.content {
+    height:auto;
+  }
 }
