@@ -3664,7 +3664,7 @@ data = [`{
           "Number of credits": "1.5",
           "CIE": "cie",
           "CIE only": "False",
-          "SEE": "1.5",
+          "SEE": "see",
           "Total(CIE+SEE)": "total",
           "Grade": "grade",
           "Grade point": "gp",
